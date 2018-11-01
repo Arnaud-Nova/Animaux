@@ -1,0 +1,110 @@
+/* couleurs
+body #197b30
+container #9dc2a6
+    font title #003471
+nav #005952
+    font quote #0f4175
+shiba #fdc689
+    font shiba #a54815
+pigeon #448ccb
+    font pigeon #15175e
+ninja #212121
+    font ninja #dadada
+
+font lien #ed145b
+Arial, "Arial Black", Verdana, Impact, "Trebuchet MS"
+*/
+
+body {
+    background-color: #197b30;
+}
+
+.container {
+    background-color: #9dc2a6;
+    margin: 40px auto;
+    width: 800px;
+    font-family: monospace;
+    font-size: 80%;
+    line-height: 17px;
+    padding-top: 20px;
+    padding-bottom: 80px;    
+}
+
+.title {
+    color: #003471;
+    font-size: 350%;
+    font-weight: normal;
+    padding: 4%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 350%;
+    padding-left: 40px;
+    font-weight: normal;
+    text-align: left;
+}
+nav {
+    background-color: #005952;
+    padding: 2%;
+    text-align: center;
+
+}
+
+nav img {
+    border-radius: 50%;
+    margin: 0 2%;
+}
+
+blockquote {
+    font-style: italic;
+    color: #0f4175;
+    text-align: right;
+    margin: 50px 150px;
+}
+
+cite {
+    font-style: normal;
+}
+
+blockquote p {
+    text-align:left;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.animal-container {
+    padding: 20px 230px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.animal-container p {
+    text-align: left;
+}
+#shiba {
+    background-color: #fdc689;
+    color: #a54815;
+    }
+
+#pigeon {
+    background-color: #448ccb;
+    color: #15175e;
+}
+
+#ninja {
+    background-color: #212121;
+    color: #dadada;
+}
+
+a {
+    color: #ed145b;
+    text-decoration: none;
+}
+
+.illustration {
+    border-radius: 5%;
+}
